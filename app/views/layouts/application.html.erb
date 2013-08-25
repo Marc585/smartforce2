@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+
 <html>
 <head>
   <title>SmartForce.PRO</title>
@@ -9,10 +11,12 @@
 <%= render 'layouts/header' %>
 <body>
 	<div class="container">
+		<% flash.each do |name, msg| %>
+		<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+		<% end %>
 	<%= yield %>
 	<%= render 'layouts/footer' %>
 </div>
 
 </body>
 </html>
-config.assets.initialize_on_precompile = false
