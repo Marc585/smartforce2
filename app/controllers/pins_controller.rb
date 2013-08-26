@@ -74,7 +74,7 @@ before_filter :authenticate_user!, except: [:index]
   # DELETE /pins/1
   # DELETE /pins/1.json
   def destroy
-    @pin = current_user.pins.findPin.find(params[:id])
+    @pin = current_user.pins.find(params[:id])
     @pin.destroy
 
     respond_to do |format|
