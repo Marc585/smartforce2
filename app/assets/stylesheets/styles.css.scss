@@ -20,7 +20,7 @@ body {
 	margin-top: 50px;
 	color: $grayLight;
 	a {
-		color: $gray;
+			color: $gray;
 
 	}
 }
@@ -38,6 +38,14 @@ body {
 	border-radius: 5px;
 	box-shadow: 1px 1px 10px #444;
 	width: 214px;
+	float: left;
+    overflow: hidden;
+    background: #FFF;
+    padding: 5px;
+    box-shadow: 0 0 4px 0 #000;
+    border-radius: 5px;
+    margin: 5px;
+    width: 210px;
 }
 
 .box img {
@@ -46,32 +54,18 @@ body {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	 width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .description {
 	margin: 10px 0 5px;
 }
-/* text i added from stackoverflow */
-.box {
-	float:left;
-	overflow: hidden;
-	background: #FFF;
-	padding: 5px;
-	box-shadow: 0 0 4px 0 #000;
-	border-radius: 5px;
-	margin: 5px;
-	width: 210px;
-}
 
 #pins {
-	overflow: hidden;
+    overflow: hidden;
 }
-.box img {
-	width: 100%;
-	height: auto;
-	border-radius: 5px;
-}
-
 
 
 
