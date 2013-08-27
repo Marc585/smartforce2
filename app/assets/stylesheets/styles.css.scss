@@ -10,11 +10,12 @@ body {
 
 @import 'bootstrap-responsive';
 
-.navbar-inner {
+/* removes the shadow on the bootstrap navbar
+/* .navbar-inner {
 	@include box-shadow(none !important);
 	border: 0;
 }
-
+*/ 
 .footer {
 	margin-top: 50px;
 	color: $grayLight;
