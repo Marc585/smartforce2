@@ -5,6 +5,8 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
+gem 'aws-sdk'
+
 ruby '1.9.3'
 
 group :production do
